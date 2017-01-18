@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">One Rep Max Calculator</string>
+    <string name="reps">Enter the number of reps performed:</string>
+    <string name="weight">Enter the weight lifted:</string>
+</resources>
