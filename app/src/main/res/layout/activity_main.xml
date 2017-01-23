@@ -27,8 +27,10 @@
         android:ems="2"
         android:id="@+id/editText"
         android:layout_alignLeft="@id/textView"
+        android:layout_alignStart="@id/textView"
         android:layout_alignBaseline="@id/textView"
         android:layout_marginStart="182dp"
+        android:layout_marginLeft="182dp"
         />
 
     <TextView
@@ -37,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/textView"
         android:layout_alignLeft="@id/textView"
+        android:layout_alignStart="@id/textView"
         android:layout_marginTop="30dp"
         android:id="@+id/textView2"
         android:textSize="18sp"
@@ -49,8 +52,20 @@
         android:ems="2"
         android:layout_below="@+id/textView"
         android:layout_alignLeft="@id/textView2"
+        android:layout_alignStart="@id/textView2"
         android:layout_alignBaseline="@id/textView2"
+        android:layout_marginStart="291dp"
         android:layout_marginLeft="291dp"
         android:id="@+id/editText2" />
+
+    <Button
+        android:text="@string/btnText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="116dp"
+        android:onClick="buttonSubmit"
+        android:id="@+id/button" />
 
 </RelativeLayout>
