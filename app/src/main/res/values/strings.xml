@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">One Rep Max Calculator</string>
-    <string name="reps">Enter the number of reps performed:</string>
-    <string name="weight">Enter the weight lifted:</string>
-    <string name="btnText">Submit</string>
-    <string name="epleyFor">Epley Formula Results: </string>
+    <string name="reps">Number of reps performed:</string>
+    <string name="weight">Weight lifted:</string>
+    <string name="submitBtnText">Submit</string>
+    <string name="Formulas">"Epley Formula:\n\nBrzycki Formula:\n\nMcGlothlin Formula:\n\n"
+    "Lombardi Formula:\n\nMayhew Formula:\n\nO'Conner Formula:\n\nWathan Formula:"</string>
+    <string name="clearBtnText">Clear</string>
+    <string name="tv_results">RESULTS</string>
 </resources>
