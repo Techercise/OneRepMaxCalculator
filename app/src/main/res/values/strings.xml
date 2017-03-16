@@ -3,8 +3,7 @@
     <string name="reps">Number of reps performed:</string>
     <string name="weight">Weight lifted:</string>
     <string name="submitBtnText">Submit</string>
-    <string name="Formulas">"Epley Formula:\n\nBrzycki Formula:\n\nMcGlothlin Formula:\n\n"
-    "Lombardi Formula:\n\nMayhew Formula:\n\nO'Conner Formula:\n\nWathan Formula:"</string>
+    <string name="Formulas">Projected One Rep Max</string>
     <string name="clearBtnText">Clear</string>
     <string name="tv_results">RESULTS</string>
 </resources>
