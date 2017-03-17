@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void buttonSubmit(View view)
     {
+        //display results in designated textView
+        results = (TextView) findViewById(R.id.textView4);
         int weight = (Integer.parseInt(amtWeight.getText().toString()));
         int reps = Integer.parseInt(numReps.getText().toString());
         //results of Epley formula
@@ -46,11 +48,17 @@ public class MainActivity extends AppCompatActivity {
         //find average of all formulas
         int avgRes = (int) Math.round((epRes + brzyRes + mcRes + lomRes + mayRes + oconRes +
                                         wathRes)/7);
-        //display results in results bar
-        results = (TextView) findViewById(R.id.textView4);
-        results.setText(avgRes + " lbs.");
-        //bold results to make them easier to see for user
-        results.setTypeface(null, Typeface.BOLD);
+        if(amtWeight.getText().toString() == null || numReps.getText().toString() == null ||
+                (amtWeight.getText().toString() == null && numReps.getText().toString() == null))
+        {
+            results.setText("Enter reps and weight!");
+        }
+        else
+        {
+            results.setText(avgRes + " lbs.");
+            //bold results to make them easier to see for user
+            results.setTypeface(null, Typeface.BOLD);
+        }
     }
 
     public void clearSubmit(View view)
